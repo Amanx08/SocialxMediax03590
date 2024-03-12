@@ -1,0 +1,262 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+.maX-width {
+    max-width: 1440px !important;
+    margin: 0 auto !important;
+}
+
+.custom-bt-all {
+    font-size: .9rem;
+    border-radius: 8px;
+    font-weight: 500;
+    border: 2px solid #dc3545;
+}
+
+.heading {
+    font-weight: 600 !important;
+}
+
+.jost {
+    font-family: "Jost", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+.p-justify {
+    text-align: justify;
+}
+
+.blue-theme {
+    color: #355FF7
+}
+
+.blue-theme-bg {
+    background-color: #355FF7 !important;
+    color: white !important;
+}
+
+/* Navbar Saction 1 */
+.na-hv {
+    color: black;
+    font-size: 1.2rem !important;
+    font-family: Jost, sans-serif;
+    font-weight: 500;
+}
+
+.na-hv:hover {
+    color: #2442ec !important;
+}
+
+/* Section 2 */
+
+.back-about {
+    background-image: url(./bg_service.jpg );
+    background-position-y: -110px;
+    height: 18.8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-heading2 {
+    color: white;
+    padding-top: 5rem;
+}
+
+
+/* Section 3 */
+.red-text {
+    color: #355FF7;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Section 4 */
+
+.section-4-div {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 19.5rem !important;
+    margin-top: 3.5rem;
+}
+
+.section-4-top-heading {
+    padding-top: 10rem;
+}
+
+/* section-5 */
+
+.section-5-main {
+    margin-top: 7rem;
+}
+
+/* section-6 */
+.section-6-main {
+    margin: 7rem 0;
+    background-color: #f6f7ff;
+}
+
+/* .section-7 */
+.section-7-head {
+    width: 48%;
+    text-align: center;
+}
+
+.section-7-div {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 26.4rem !important;
+}
+
+.section-7-div:hover {
+    background-color: white;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.section-7-bg {
+    background-image: url(./bg_img.png);
+    background-repeat: no-repeat;
+    background-position-y: -260px;
+}
+
+/* Section 9 */
+.section-9-div {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    width: 26.4rem !important;
+}
+
+/* Section-10 */
+.section-10-background {
+    background-image: linear-gradient(46deg, #cb202d 40%, #00000080 100%);
+    height: 43rem;
+}
+
+/* Section 11 */
+
+.section-11-row {
+    height: 5rem;
+    border: .5px solid grey !important;
+    border-radius: 12px !important;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+
+}
+
+.section-11-row:focus {
+    border: .5px solid grey;
+    box-shadow: none;
+}
+
+.section-11-data {
+    background-image: url(./service-11-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    background-position-y: -60px;
+    height: 42rem;
+    border: .5px solid grey;
+    border-radius: 12px;
+    margin-top: -6rem !important;
+    background-color: white;
+}
+
+/* .section-11-data::before {
+    color: #3498db;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg);
+}
+
+.section-11-data::after,
+.section-11-data::before {
+    color: #2ecc71;
+    content: '\f075';
+    font-family: 'Font Awesome 5 Free';
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+} */
+/* Accoridan Csss  */
+.my-accordian {
+    background-color: white;
+    border: 1px solid white;
+    border-top: none;
+    margin-top: -8px;
+}
+
+/* sectio 12 */
+.black {
+    background-color: #424142;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    
+.back-about{
+    height: 6rem;
+  }
+  .about-heading2{
+    padding-top: .5rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .fixed-lg-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 !important;
+
+    }
+    .back-about{
+        height: 4.5rem;
+      }
+    .nav-logo {
+        height: 2.7rem !important;
+    }
+
+    .footer-quick-links {
+        padding: 1rem 0 !important;
+    }
+
+    .footer-post-1 {
+        padding: 0 !important;
+    }
+
+
+}
+
