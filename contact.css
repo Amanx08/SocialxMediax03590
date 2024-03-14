@@ -19,38 +19,43 @@
 .heading {
     font-weight: 600 !important;
 }
+
 .jost {
     font-family: "Jost", sans-serif;
-  }
-  
-  .poppins {
+}
+
+.poppins {
     font-family: "Poppins", sans-serif;
     ;
-  }
-body{
-    overflow-x:hidden;
 }
-.p-justify{
+
+body {
+    overflow-x: hidden;
+}
+
+.p-justify {
     text-align: justify;
-  }
-  .blue-theme{
-    color:#355FF7
-  }
-  .blue-theme-bg{
-    background-color:#355FF7!important;
-    color:white!important;
-  }
+}
+
+.blue-theme {
+    color: #355FF7
+}
+
+.blue-theme-bg {
+    background-color: #355FF7 !important;
+    color: white !important;
+}
+
 /* Navbar Saction 1 */
 .na-hv {
     color: black;
-    font-size: 1.2rem!important;
+    font-size: 1.2rem !important;
     font-family: Jost, sans-serif;
     font-weight: 500;
 }
 
 .na-hv:hover {
-    color: #2442ec
-    !important;
+    color: #2442ec !important;
 }
 
 /* Contact-bg section 2 */
@@ -69,14 +74,15 @@ body{
 /* section-3 */
 .section-3 {
     /* background-color: #f9f9f9; */
-    padding-top: 3rem!important;
+    padding-top: 3rem !important;
 }
 
-.s3-icon{
+.s3-icon {
     font-size: 4rem;
-    color:#bb2124;
+    color:#355FF7;
     padding-left: 1rem;
 }
+
 .section-3-heading {
     font-size: 1.9rem;
     font-weight: 500;
@@ -88,23 +94,26 @@ body{
     box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
-.section-3-card:hover{
+
+.section-3-card:hover {
     box-shadow: none;
-    border: 1px solid #2442ec
-    ;
+    border: 1px solid #2442ec;
 }
 
 /* Section-4 */
-.s4-all{
+.s4-all {
     /* background-color: #f9f9f9; */
     background-image: url(./bg_img.png);
-    background-position-y:100% ;
+    background-position-y: 100%;
     margin-bottom: 7rem;
     background-repeat: no-repeat;
 }
-.section-4-main{
+
+.section-4-main {
     padding-top: 5rem;
+
 }
+
 .contact-bg-s4 {
     background-color: #F6F7FF;
 }
@@ -117,8 +126,7 @@ body{
 
 .section-4-2nd:hover {
     transition: all .1s ease;
-    border: 1px solid #2442ec
-    ;
+    border: 1px solid #2442ec;
 }
 
 .s4-data-1 {
@@ -185,13 +193,20 @@ body{
 
 @media only screen and (max-width: 1000px) {
 
-.back-about{
-    height: 6rem;
-  }
-  .about-heading2{
-    padding-top: .5rem;
-  }
+    .back-about {
+        height: 6rem;
+    }
 
+    .about-heading2 {
+        padding-top: .5rem;
+    }
+
+    .contact-bg {
+        height:7rem;
+    }
+    .contact-bg-section2{
+        padding-top: 1rem;
+    }
 
 
 }
@@ -207,9 +222,11 @@ body{
         padding: 0 !important;
 
     }
-    .back-about{
+
+    .back-about {
         height: 4.5rem;
-      }
+    }
+
     .nav-logo {
         height: 2.7rem !important;
     }

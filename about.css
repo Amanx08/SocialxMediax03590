@@ -232,7 +232,9 @@
 .tools{
   margin-bottom: 3rem;
 }
-
+.n-ds{
+  display: none;
+}
 
 
 }
