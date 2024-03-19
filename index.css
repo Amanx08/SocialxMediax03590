@@ -139,6 +139,7 @@ margin-right: 70px;
   background-color:#f9f9f9;
   height: 39rem;
   background-size: contain;
+  overflow-x: hidden;
 }
 
 .about-para {
@@ -167,7 +168,8 @@ margin-right: 70px;
   background-color:#f9f9f9!important;
 }
 .bc-cc{
-  height: 40rem;
+  height: fit-content;
+  overflow-x: hidden;
 }
 .t-man1 {
   border-radius: 13px;
