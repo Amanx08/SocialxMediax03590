@@ -162,6 +162,21 @@
   padding: 120px 0px !important;
   /* margin-top: 80px!important; */
 }
+.test-div2 {
+  width: 90%;
+  margin: 10% auto;
+  height: 24rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  font-family: Jost, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: grey;
+  border:solid 1px #e5e3e5;
+  
+}
 
 .test-div {
   width: 26rem;
@@ -181,6 +196,11 @@
 .test-inner {
   width: 85%;
   margin: 0 auto;
+  height: 217.5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
 }
 
 /* Section 7 */
@@ -216,6 +236,7 @@
   }
 .section3-heading{
   padding-top: 2rem;
+  text-align: center;
 }
 .back-about{
   height: 6rem;

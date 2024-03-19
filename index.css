@@ -168,7 +168,7 @@ margin-right: 70px;
   background-color:#f9f9f9!important;
 }
 .bc-cc{
-  height: fit-content;
+  height: 42rem;
   overflow-x: hidden;
 }
 .t-man1 {
@@ -308,7 +308,7 @@ margin-right: 70px;
 }
 
 .ser-section {
-  margin-top: 8rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -821,8 +821,8 @@ justify-content: space-around;
 }
 
 .media-cus {
+  padding: 2px!important;
   text-align: center;
-  margin-top: 30rem;
   /* margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -918,7 +918,9 @@ justify-content: space-around;
 .tools-img{
   width: 100%;
 }
-
+.s4-nn-card{
+  display: none;
+}
 
 }
 
@@ -936,8 +938,8 @@ justify-content: space-around;
 .nav-logo{
   height: 3rem!important;
 }
-.testimonial{
-
+.home-text {
+padding-top:0!important;
 
 }
 
@@ -972,4 +974,18 @@ align-items: center!important;
   width: 100%!important;
   margin: 0;
 }
+.bc-cc{
+  height: 56rem;
+  overflow-y: hidden;
+}
+
+.time-cus-rem{
+  padding-top: .5rem;
+}
+
+.about-heading{
+  margin: 1rem!important;
+  text-align: center;
+}
+
 }

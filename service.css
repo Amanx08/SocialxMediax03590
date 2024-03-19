@@ -126,11 +126,14 @@
     background-position-y: -260px;
 }
 
+/* section 8 */
+
 /* Section 9 */
-.section-9-div {
-    background-color: #f9f9f9;
+.more-main {
+    width: 26rem !important;
+    height: auto;
     border-radius: 12px;
-    width: 26.4rem !important;
+
 }
 
 /* Section-10 */
@@ -261,8 +264,18 @@
         width: 100% !important;
     }
 
+    .service-sectio-10-img {
+        display: none;
+    }
 
+    .section-10-background {
+        background-image: linear-gradient(180deg, #355FF7 40%, #355FF7 100%);
 
+    }
+ .section-11-data{
+    height: auto;
+
+ }
 }
 
 
@@ -312,6 +325,7 @@
     .section-6-main2 {
         width: 100% !important;
         text-align: center;
+
     }
 
     .section-7-head {
@@ -320,6 +334,8 @@
 
     .section-6-main {
         text-align: center;
+        margin: 1rem;
+        padding-top: 1rem;
     }
 
     .sec-11-heading {
@@ -330,25 +346,27 @@
         padding: 0 !important;
     }
 
-    .section-11-data {
-        margin-top: -6.6rem!important;
+ .section-11-data{
+    margin-top: -6.6rem !important;
+    height: auto;
+ }
+
+  
+
+    .section-5-first {
+        padding-top: 2rem;
     }
-    .section-10-background {
-        background-image: linear-gradient(180deg, #355FF7 40%, #ffffff 100%);
-      
-      }
 
-
+    body {
+        overflow-x: hidden;
+    }
 
 }
 
 
-@media only screen and (max-width: 600px) {
-
-    .section-11-data {
-        margin-top: -7.6rem!important;
-    }
-
-
+@media only screen and (max-width: 444px) {
+.section-11-data{
+    margin-top: -130px!important;
+}
 
 }
