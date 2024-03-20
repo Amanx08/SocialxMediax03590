@@ -10,10 +10,9 @@
 }
 
 .custom-bt-all {
-    font-size: .9rem;
-    border-radius: 8px;
-    font-weight: 500;
-    border: 2px solid #dc3545;
+    font-size: .9rem!important;
+    border-radius: 8px!important;
+    font-weight: 500!important;
 }
 
 .heading {
@@ -57,11 +56,12 @@
 /* Section 2 */
 
 .back-about {
-    background-image: url(./bg_service.jpg );
     background-position-y: -110px;
     height: 18.8rem;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image:url(./bg_service.jpg);
+    
 }
 
 .about-heading2 {
@@ -139,7 +139,7 @@
 /* Section-10 */
 .section-10-background {
     background-image: linear-gradient(90deg, #355FF7 40%, #ffffff 100%);
-    height: 43rem;
+    height: fit-content;
 }
 
 /* Section 11 */
@@ -150,7 +150,6 @@
     border-radius: 12px !important;
     font-size: 1.1rem !important;
     font-weight: 500 !important;
-
 }
 
 .section-11-main2 {
@@ -180,7 +179,9 @@
 .fit-cont {
     height: fit-content;
 }
-
+.section-11-head{
+    text-align: justify;
+}
 /* .section-11-data::before {
     color: #3498db;
     top: -10px;
@@ -288,7 +289,11 @@
         padding: 0 !important;
 
     }
-
+    .section-11-head{
+        font-size: 17px;
+        text-align: start;
+        padding-left: .9rem;
+    }
     .section-4-top-heading {
         padding-top: 0;
         text-align: center;
@@ -351,7 +356,9 @@
     height: auto;
  }
 
-  
+  /* .section-5-img{
+    width: 90%!important;
+  } */
 
     .section-5-first {
         padding-top: 2rem;
