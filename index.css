@@ -103,7 +103,33 @@ body {
   font-family: "Poppins", sans-serif;
 
 }
-
+.s4-data-1 {
+  border: none;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 99% !important;
+  height: 4rem;
+}
+.s4-data-2 {
+  border: none !important;
+  background-color: #f9f9f9 !important;
+  border-radius: 10px;
+  width: 99% !important;
+}
+.s4-data-3 {
+  border: none;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 50% !important;
+  height: 4rem;
+}
+.s4-data-1:focus{
+  border:1px solid #355FF7!important;
+}
+.modal-cb{
+  padding: 1rem!important;
+  height: 2rem!important;
+}
 .na-hv {
   color: black;
   font-size: 1.2rem;
@@ -190,14 +216,6 @@ margin-right: 70px;
   left: 50%; */
 }
 
-.service-button {
-  padding: 6px 16px 12px 21px;
-  background-color: #D8E6FF;
-  color: #355FF7;
-  margin-right: 15px;
-  font-size: 2rem;
-  border-radius: 8px;
-}
 
 .time-para {
   font-size: 1.1rem;
@@ -273,6 +291,7 @@ margin-right: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2.5rem;
 } 
 
 .cm-two {
@@ -283,7 +302,7 @@ margin-right: 70px;
 }
 .para-soft {
   line-height: 2;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
 
 }
@@ -314,7 +333,7 @@ margin-right: 70px;
 .servicedata {
   font-size: 1.2rem;
   font-weight: 500;
-  padding-top: .5rem;
+  /* padding-top: .5rem; */
 }
 
 .ser-section {
@@ -421,6 +440,13 @@ margin-right: 70px;
   overflow-x: scroll;
 } */
 
+.service-button {
+  background-color: #D8E6FF;
+  color: #355FF7;
+  margin-right: 15px;
+  font-size: 2rem;
+  border-radius: 8px;
+}
 
 
 
@@ -429,7 +455,7 @@ margin-right: 70px;
 
 .loader {
   position: fixed;
-  z-index: 99999;
+  z-index: 99;
   top: 0;
   left: 0;
   width: 100%;
@@ -770,11 +796,12 @@ justify-content: space-around;
   } */
 
   .home-para-custom {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
     max-width: fit-content;
     margin: 0 auto;
     font-weight: 500s;
+    padding: 0;
   }
 
   .home-a2 {
@@ -789,6 +816,7 @@ justify-content: space-around;
   .about-para {
     margin: 0 auto;
   text-align: justify;
+  width: 92%;
 
   }
 
@@ -850,7 +878,7 @@ justify-content: space-around;
 
 .our-social {
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* .ones-a1 {
@@ -863,10 +891,10 @@ justify-content: space-around;
 }
 
 .service-button {
-  padding: 0 2px;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
+  padding:  2px;
+  font-size: 1.3rem;
+  /* display: flex; */
+  /* justify-content: space-between; */
 
 
 }
@@ -881,7 +909,7 @@ justify-content: space-around;
 
 .ser-white {
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
   border-radius:7px ;
 }
 
@@ -949,6 +977,7 @@ justify-content: space-around;
 }
 .home-text {
 padding-top:0!important;
+font-size: clamp(2rem , 4vh , 3rem);
 
 }
 
@@ -1009,6 +1038,7 @@ align-items: center!important;
 }
 .service-para{
   text-align: center;
+  font-size: 1.1rem;
 }
 .service-bnt{
  display: flex;

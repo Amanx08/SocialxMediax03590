@@ -42,7 +42,7 @@
 }
 
 .blue-theme {
-  color: #355FF7;
+  color: #355FF7!important;
 }
 
 .blue-theme-bg {
@@ -137,9 +137,11 @@
   background-position-x: 10px;
   background-position-y: -200px;
 }
-.section-6-heading-mobile{
+
+.section-6-heading-mobile {
   display: none;
 }
+
 .section6-div1 {
   background-color: white;
   /* margin: 10% auto; */
@@ -288,6 +290,11 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 0 !important;
+
+  }
+
+  .black {
+    overflow-x: hidden;
   }
 
   .nav-logo {
@@ -307,12 +314,15 @@
     text-align: center !important;
 
   }
-  .section-6-heading-mobile{
+
+  .section-6-heading-mobile {
     display: block;
   }
-  .section-6-heading-desktop{
+
+  .section-6-heading-desktop {
     display: none;
   }
+
   .who-are {
     margin-top: 2rem;
   }
@@ -331,12 +341,14 @@
   }
 
   .test-main {
-    margin-top: 5rem!important;
-    padding-bottom: 3rem!important;
+    margin-top: 5rem !important;
+    padding-bottom: 3rem !important;
   }
-  .test-div{
-    margin-top: 1rem!important;
+
+  .test-div {
+    margin-top: 1rem !important;
   }
+
   .footer-quick-links {
     padding: 1rem !important;
   }
@@ -358,8 +370,8 @@
   }
 
 
-  .Section-6-bton{
-    margin-top: 0!important;
+  .Section-6-bton {
+    margin-top: 0 !important;
     margin: 2rem;
   }
 

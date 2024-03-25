@@ -237,5 +237,7 @@ body {
     .footer-post-1 {
         padding: 0 !important;
     }
- 
+    .black {
+        overflow-x: hidden;
+      }
 }

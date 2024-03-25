@@ -22,9 +22,41 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 </head>
+<body>
 
-
-
+<!-- modal -->
+<div class="modal fade" id="myfrom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold text-center" id="exampleModalLabel">Sign in</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4" >
+            <div class="section-4-2nd d-flex flex-column py-1 px-3 ">
+                <div class="row">
+                    <input type="text" placeholder="Username" class="s4-data-1">
+                </div>
+                <div class="row mt-3">
+                    <input type="text" placeholder="Phone or E-mail" class="s4-data-1">
+                </div>
+                <div class="row mt-3">
+                    <input type="password" placeholder="Password" class="s4-data-1">
+                </div>
+                
+                <div class="form-check mt-3">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label jost" for="defaultCheck1">
+                        I agree with shareit's Terms of Service, Privacy Policy.
+                    </label>
+                  </div>              
+               <button class="btn blue-theme-bg mt-3 p-3">Sign-in</button>
+            </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
     <nav class="navbar navbar-expand-lg navbar-light fixed-lg-top maX-width px-lg-5">
         <div class="container-fluid py-lg-1 custom-nav">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -81,8 +113,14 @@
                         </p>
                         <div class="mt-4 row gap-3 ps-3">
                             <a href="./contact.html" class="btn blue-theme-bg col-lg-4 p-3  custom-bt-home">GET STARTED</a>
-                            <button class=" btn blue-theme col-lg-4 p-3 custom-bt-home">FREE TRIAL</button>
+
+             <!-- Modal -->
+             
+                            <button class=" btn blue-theme col-lg-4 p-3 custom-bt-home" data-bs-toggle="modal" data-bs-target="#myfrom">FREE TRIAL</button>
+                          
                         </div>
+
+                        
                     </div>
                     <div class="col-lg-7 pt-3">
                         <img src="./Images.png" class="img-fluid  home-a2">
@@ -159,7 +197,7 @@
     </div> 
     <!-- Managing Social media section 5-->
     <div class="container-fluid media-cus1 maX-width">
-        <div class="row  man-social py-5 mx-5">
+        <div class="row  man-social py-5 mx-5 justify-content-center">
             <div class="col-lg-5 media-cus ps-5 pt-5">
                 <h3 class="display-6 about-heading social-a1">Integrate intuition into your approach to managing your
                     social media platforms.
@@ -175,7 +213,7 @@
                     pages, Twitter accounts, and Instagram profiles can be seamlessly managed simultaneously.</p>
                 <p class="blue-theme h4 mt-4 text-start section-5-rm">READ MORE ></p>
             </div>
-            <div class="col-lg-1"></div>
+            <!-- <div class="col-lg-1"></div> -->
             <div class="col-lg-6">
                 <img src="./310927-P8GK0V-622 1.png" class="img-fluid platforms-cus" style="width: 55rem;">
 
@@ -209,9 +247,9 @@
     <div class="container-fluid  mt-5 maX-width">
         <div class="row mx-5  one-section ">
             <div class="col-lg-6 ">
-                <img src="./images (2).png" class="img-fluid mt-5" style="height:80%;">
+                <img src="./images (2).png" class="img-fluid mt-5" style="width:90%;">
             </div>
-            <div class="col-lg-6 cm-two">
+            <div class="col-lg-5 cm-two">
                 <h3 class="display-6 about-heading ones-a1">Access all necessary tools within a single software
                     solution.
                 </h3>
@@ -239,7 +277,7 @@
                 <div class="col-lg-6">
                     <h2 class="display-6 ms-5 about-heading social-a1 pb-3">Begin your journey for free now!</h2>
                 </div>
-                <div class="col-lg-6 get-st-sectoin-8 justify-content-centerd">
+                <div class="col-lg-6 get-st-sectoin-8 d-flex justify-content-center">
                     <img src="./apple.png" class="img-fluid divider-img">
                    
                     <img src="./google.png " class="img-fluid divider-img">
@@ -271,35 +309,35 @@
             </div>
             <div class="col-lg-6 d-flex flex-column text-align-center width-col py-5 justify-content-center">
 
-                <div class="row ser-white mt-3 p-lg-3 py-3 mx-4 rounded-5 d-flex align-items-center">
+                <div class="row ser-white mt-3 p-lg-3 py-3 mx-4 rounded-5 d-flex align-items-center g-0">
 
                     <div class="col-lg-12 d-flex align-items-center">
                         <button class="btn service-button ">&#129130;</button>
-                        <p class="servicedata">Increasing brand recognition</p>
+                        <div class="servicedata">Increasing brand recognition</div>
                     </div>
                 </div>
-                <div class="row ser-white mt-3 p-lg-3 py-3 mx-4 rounded-5  d-flex">
+                <div class="row ser-white mt-3 p-lg-3 py-3 mx-4 rounded-5  d-flex g-0">
 
                     <div class="col-lg-12  d-flex align-items-center">
                         <button class="btn service-button ">&#129130;</button>
-                        <p class="servicedata">Obtaining helpful
-                            info about your customers</p>
+                        <div class="servicedata">Obtaining helpful
+                            info about your customers</div>
                     </div>
                 </div>
-                <div class="row ser-white mt-3 py-3 p-lg-3 mx-4 rounded-5  d-flex">
+                <div class="row ser-white mt-3 py-3 p-lg-3 mx-4 rounded-5  d-flex g-0">
 
                     <div class="col-lg-12  d-flex align-items-center">
                         <button class="btn service-button ">&#129130;</button>
-                        <p class="servicedata">Creating a more
-                            compelling value proposition</p>
+                        <div class="servicedata">Creating a more
+                            compelling value proposition</div>
                     </div>
                 </div>
-                <div class="row ser-white mt-3 py-3 p-lg-3 mx-4 rounded-5  d-flex">
+                <div class="row ser-white mt-3 py-3 p-lg-3 mx-4 rounded-5  d-flex g-0">
 
                     <div class="col-lg-12 d-flex align-items-center">
                         <button class="btn blue-theme service-button ">&#129130;</button>
-                        <p class="servicedata">Quick resolution of
-                            concerns</p>
+                        <div class="servicedata">Quick resolution of
+                            concerns</div>
                     </div>
                 </div>
             </div>
@@ -391,7 +429,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Jatin</div>
                                 </div>
                             </div>
                             <div class="col-lg-4 test-div mt-5 pt-5 n-ds">
@@ -402,7 +440,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Ritesh</div>
                                 </div>
                             </div>
                             <div class="col-lg-4 test-div mt-5 pt-5 n-ds">
@@ -413,7 +451,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Rohan</div>
                                 </div>
                             </div>
 
@@ -428,7 +466,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Rohal</div>
                                 </div>
                             </div>
                             <div class="col-lg-4 test-div mt-5 pt-5 n-ds">
@@ -443,7 +481,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Jatin</div>
                                 </div>
                             </div>
                             <div class="col-lg-4 test-div mt-5 pt-5 n-ds">
@@ -454,7 +492,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Ritesh</div>
                                 </div>
                             </div>
 
@@ -470,7 +508,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Rohan</div>
                                 </div>
                             </div>
                             <div class="col-lg-4 test-div mt-5 pt-5 n-ds">
@@ -481,7 +519,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Jatin</div>
                                 </div>
                             </div>
                             <div class=" test-div mt-5 pt-5 n-ds">
@@ -496,7 +534,7 @@
                                     <div class="col-lg-1">
                                         <img src="./users.svg">
                                     </div>
-                                    <div class="col-lg-4 mt-2 text-dark">Prem</div>
+                                    <div class="col-lg-4 mt-2 text-dark">Ritesh</div>
                                 </div>
                             </div>
 
@@ -539,7 +577,7 @@
                         <div class="col-lg-1">
                             <img src="./users.svg">
                         </div>
-                        <div class="col-lg-4 mt-2 text-dark">Frem</div>
+                        <div class="col-lg-4 mt-2 text-dark">Jatin</div>
                     </div>
                 </div>
             </div>
@@ -553,7 +591,7 @@
                         <div class="col-lg-1">
                             <img src="./users.svg">
                         </div>
-                        <div class="col-lg-4 mt-2 text-dark">Srem</div>
+                        <div class="col-lg-4 mt-2 text-dark">Ritesh</div>
                     </div>
                 </div>
             </div>
@@ -567,7 +605,7 @@
                         <div class="col-lg-1">
                             <img src="./users.svg">
                         </div>
-                        <div class="col-lg-4 mt-2 text-dark">Grem</div>
+                        <div class="col-lg-4 mt-2 text-dark">Rohan</div>
                     </div>
                 </div>
 
@@ -591,7 +629,7 @@
         <div class="container-fluid pt-5 text-white maX-width ps-5">
             <div class="row d-flex justify-content-evently ">
                 <div class="col-md-4 footer-post-1">
-                    <img src="./footer-logo.png" class="img-fluid" style="width:15rem;">
+                    <img src="./footer-logo.png" class="img-fluid" style="height: 4rem;">
                     <div class=" my-4 foot-top-custom poppins">
                         <div>BA Technology offers simple Social Media Management Software.</div>
                         <div class="mt-3 mb-2">Address: Old No-52, Patel Road, Perambur, Chennai, Tamil Nadu 600011
@@ -640,7 +678,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <hr class="light">
-                    <h6 class="text-center p-3 jost">© B A Technology 2023. All Rights Reserved.
+                    <h6 class="text-center p-3 jost">Copyright © 2022 BranStr.com.
                     </h6>
                 </div>
             </div>
