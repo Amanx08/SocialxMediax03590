@@ -240,4 +240,7 @@ body {
     .black {
         overflow-x: hidden;
       }
+      .section-4-img{
+        width: 40rem;
+      }
 }
